@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>penggunaan if else</title>
+</head>
+<body>
+	<script language="JavaScript">
+		function tanya ()
+		{
+			var jawab =""
+			var jawab = prompt ("Anda senang bikin hompage?")
+			var JAWAB = jawab.toUpperCase()
+			var tampil="jawab dong, ya/yup atau tidak/enggak"
+			if (JAWAB == "YA" || JAWAB == "YUP")
+			{
+				var tampil = "Sama dong saya juga :D"
+			}
+			if (JAWAB == "TIDAK" || JAWAB == "NGGAK")
+			{
+				var tampil = "iya euy, bikin suntUk tuh (_ _)Zz"
+			}
+			alert(tampil)	
+			}
+	</script>
+	<b>Hobi</b>
+	<form><input type="button" value="poling" onclick="tanya()"></form>
+
+</body>
+</html>

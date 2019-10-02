@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Interaktif</title>
+</head>
+<body>
+	<script language="JavaScript">
+		function warna(pilihan) {
+			alert("Wah ternyata kamu suka" + pilihan+ " toh.") document.bgColor=pilihan
+		} 
+	</script>
+	 <h3>Pilih warna favorit anda.</h3> 
+	<form>
+		<input type="button" value="Biru" onClick="warna('lightblue')"> 
+		<input type="button" value="Pink" onClick="warna('pink')"> 
+		<input type="button" value="Coklat" onClick="warna('burlywood')"> 
+		<input type="button" value="Kelabu" onClick="warna('darkgray')"> 
+		<input type="button" value="Oranye" onClick="warna('peachpuff')"> 
+		<input type="button" value="Putih" onClick="warna('white')"> 
+	</form>
+</body>
+</html>

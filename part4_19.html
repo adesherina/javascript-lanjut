@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page dynamic</title>
+	<script language="JavaScript">
+		function InputPassword()
+		{
+			coba = 1;
+			var InputPass
+			do {
+				Pass=prompt('Maukkan Password !')
+				if(Pass == "Hnaya Aku Yang Tahu")
+				{
+					alert ("Hai.. Selamat datang !!");
+					wondow.open('coba1.htm');
+					break;
+				}
+				else {
+					alert ("Password nggak cocok !! Ulangi lagi !!");
+					if(coba==3)
+				{ alert("Maafsudah3x !!"); 
+				history.go(-1);}
+				 coba = coba+1;}	} 
+			while (coba<=3)
+				}
+	</script> <form method="POST">
+		<p><input type=button value="Password" name="B3"onClick="InputPassword()"> </p> 
+	</form>
+</head>
+<body>
+
+</body>
+</html>

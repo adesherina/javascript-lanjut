@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>From Interaktif 2</title>
+</head>
+<body>
+	<SCRIPT LANGUAGE="JavaScript">function cari()
+	{	var kata =document.formcari.keyword.value;
+		{	var hasil="http://www.google.com/seacrh?q=" + kata;
+		window.open(hasil,'google',config='height=500,width=750 scrollbars=yes location=yes')
+		}
+	}
+</SCRIPT>
+<FROM NAME="formcari" onSubmit="cari()"> Cari pakai Google:
+<INPUT NAME="keyword" SIZE="40" TYPE="text">
+<INPUT TYPE="submit"VALUE="Cari..!!"> </FROM>
+</body>
+</html>

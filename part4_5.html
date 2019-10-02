@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>oprator dan statement</title>
+</head>
+<body>
+	<script language="JavaScript">
+		function tanya ()
+		{
+			var jawab =""
+			var jawab = prompt("Anda senang bikin hompage?")
+			var JAWAB = jawab.toUpperCase()
+			switch (JAWAB) 
+		{
+			case "Ya" : var tampil ="Sama dong saya juga"
+			break;
+			case "Yup" : var tampil ="Sama dong saya juga"
+			break;
+			case "Tidak" : var tampil ="iya euy, bikin suntuk(_ _)Zz"
+			break;
+			case "Nggak" : var tampil ="iya euy, bikin suntuk(_ _)Zz"
+			break;
+			default :var tampil="Jawab dong, ya/yup atau tidak/nggak"
+			break;
+		}
+		alert(tampil)
+		}
+	</script>
+	<b>Hobi</b>
+	<form><input type="button" value="poling" onclick="tanya()"></form>
+
+</body>
+</html>
